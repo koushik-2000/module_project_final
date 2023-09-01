@@ -171,7 +171,7 @@ function paper(){
     document.getElementsByClassName("paper")[1].classList.remove("hide");
     let pc = Math.floor((Math.random()*3)+1);
     if(pc == 3){//draw               
-        document.getElementsByClassName("win_3")[0].classList.remove("trans");
+        document.getElementsByClassName("win_3")[0].classList.remove("animate");
         document.getElementsByClassName("win_3")[0].classList.add("trans");
         document.getElementsByClassName("win_2")[0].classList.add("trans");
         document.getElementsByClassName("win_1")[0].classList.add("trans");
